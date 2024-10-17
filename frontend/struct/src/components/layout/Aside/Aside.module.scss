@@ -1,0 +1,12 @@
+@import "@/styles/mixins.scss";
+
+.aside {
+  display: grid;
+  gap: 30px;
+  width: 400px;
+}
+
+.aside__description {
+  @include text-style;
+  padding: 20px 20px;
+}

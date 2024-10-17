@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+. "$(dirname "$0")/_/husky.sh"
+
+COMMIT_MSG=$(cat "$1")
+if ! echo "$COMMIT_MSG" | grep -qE "^(FIX|ADD|FEAT|DOCS|STYLE|REFACTOR|TEST|CHORE): "; then
+  echo "Error: Commit message must start with one of the following prefixes:"
+  echo "FIX:, ADD:, FEAT:, DOCS:, STYLE:, REFACTOR:, TEST:, CHORE:"
+  exit 1
+fi

@@ -1,0 +1,11 @@
+@mixin text-style {
+  font-size: 24px;
+  color: #000;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+}
+
+@mixin text-variant-style {
+  color: #f6f6f6;
+  font-size: 24px;
+}

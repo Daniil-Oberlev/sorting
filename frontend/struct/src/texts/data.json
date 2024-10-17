@@ -1,0 +1,172 @@
+{
+  "binary_insertion": {
+    "title": "Binary Insertion Sort",
+    "description": "Функция binaryInsertionSort сортирует массив с помощью алгоритма сортировки вставками, используя бинарный поиск для определения позиции вставки.",
+    "complexity": {
+      "worst": "O(n²)",
+      "best": "O(n log n)",
+      "average": "O(n²)"
+    },
+    "language": {
+      "cpp": "https://github.com/JlwxdQueen/Sort.PL/blob/main/C++/binaryInsertionSort.cpp",
+      "cs": "https://github.com/JlwxdQueen/Sort.PL/blob/main/C#/binaryInsertion.cs",
+      "Go": "https://github.com/JlwxdQueen/Sort.PL/blob/main/Go/binaryInsertionSort.go",
+      "Java": "https://github.com/JlwxdQueen/Sort.PL/blob/main/Java/binaryInsertionSort.java",
+      "JavaScript": "https://github.com/JlwxdQueen/Sort.PL/blob/main/JavaScript/binaryInsertionSort.js",
+      "TypeScript": "https://github.com/JlwxdQueen/Sort.PL/blob/main/TypeScript/binaryInsertionSort.ts"
+    }
+  },
+  "bogo": {
+    "title": "Bogo Sort",
+    "description": "Функция bogoSort сортирует массив с использованием вероятностного алгоритма, который генерирует случайные перестановки элементов до тех пор, пока массив не окажется отсортированным.",
+    "complexity": {
+      "worst": "O(n!)",
+      "best": "O(n)",
+      "average": "O((n+1)!)"
+    },
+    "language": {
+      "cpp": "https://github.com/JlwxdQueen/Sort.PL/blob/main/C++/bogoSort.cpp",
+      "cs": "https://github.com/JlwxdQueen/Sort.PL/blob/main/C#/bogoSort.cs",
+      "Go": "https://github.com/JlwxdQueen/Sort.PL/blob/main/Go/bogoSort.go",
+      "Java": "https://github.com/JlwxdQueen/Sort.PL/blob/main/Java/bogoSort.java",
+      "JavaScript": "https://github.com/JlwxdQueen/Sort.PL/blob/main/JavaScript/bogoSort.js",
+      "TypeScript": "https://github.com/JlwxdQueen/Sort.PL/blob/main/TypeScript/bogoSort.ts"
+    }
+  },
+  "bubble": {
+    "title": "Bubble Sort",
+    "description": "Функция bubbleSort сортирует массив с помощью алгоритма пузырьковой сортировки.",
+    "complexity": {
+      "worst": "O(n²)",
+      "best": "O(n)",
+      "average": "O(n²)"
+    },
+    "language": {
+      "cpp": "https://github.com/JlwxdQueen/Sort.PL/blob/main/C++/bubbleSort.cpp",
+      "cs": "https://github.com/JlwxdQueen/Sort.PL/blob/main/C#/bubbleSort.cs",
+      "Go": "https://github.com/JlwxdQueen/Sort.PL/blob/main/Go/bubbleSort.go",
+      "Java": "https://github.com/JlwxdQueen/Sort.PL/blob/main/Java/bubbleSort.java",
+      "JavaScript": "https://github.com/JlwxdQueen/Sort.PL/blob/main/JavaScript/bubbleSort.js",
+      "TypeScript": "https://github.com/JlwxdQueen/Sort.PL/blob/main/TypeScript/bubbleSort.ts"
+    }
+  },
+  "exchange": {
+    "title": "Exchange Sort",
+    "description": "Функция exchangeSort сортирует массив с помощью алгоритма сортировки обменом.",
+    "complexity": {
+      "worst": "O(n²)",
+      "best": "O(n)",
+      "average": "O(n²)"
+    },
+    "language": {
+      "cpp": "https://github.com/JlwxdQueen/Sort.PL/blob/main/C++/exchangeSort.cpp",
+      "cs": "https://github.com/JlwxdQueen/Sort.PL/blob/main/C#/exchangeSort.cs",
+      "Go": "https://github.com/JlwxdQueen/Sort.PL/blob/main/Go/exchangeSort.go",
+      "Java": "https://github.com/JlwxdQueen/Sort.PL/blob/main/Java/exchangeSort.java",
+      "JavaScript": "https://github.com/JlwxdQueen/Sort.PL/blob/main/JavaScript/exchangeSort.js",
+      "TypeScript": "https://github.com/JlwxdQueen/Sort.PL/blob/main/TypeScript/exchangeSort.ts"
+    }
+  },
+  "insertion": {
+    "title": "Insertion Sort",
+    "description": "Функция insertionSort сортирует массив с помощью алгоритма сортировки вставками.",
+    "complexity": {
+      "worst": "O(n²)",
+      "best": "O(n)",
+      "average": "O(n²)"
+    },
+    "language": {
+      "cpp": "https://github.com/JlwxdQueen/Sort.PL/blob/main/C++/insertionSort.cpp",
+      "cs": "https://github.com/JlwxdQueen/Sort.PL/blob/main/C#/insertionSort.cs",
+      "Go": "https://github.com/JlwxdQueen/Sort.PL/blob/main/Go/insertionSort.go",
+      "Java": "https://github.com/JlwxdQueen/Sort.PL/blob/main/Java/insertionSort.java",
+      "JavaScript": "https://github.com/JlwxdQueen/Sort.PL/blob/main/JavaScript/insertionSort.js",
+      "TypeScript": "https://github.com/JlwxdQueen/Sort.PL/blob/main/TypeScript/insertionSort.ts"
+    }
+  },
+  "optimized_bubble": {
+    "title": "Optimized Bubble Sort",
+    "description": "Функция optimizedBubbleSort сортирует массив с помощью улучшенного алгоритма пузырьковой сортировки.",
+    "complexity": {
+      "worst": "O(n²)",
+      "best": "O(n)",
+      "average": "O(n²)"
+    },
+    "language": {
+      "cpp": "https://github.com/JlwxdQueen/Sort.PL/blob/main/C++/optimizedBubbleSort.cpp",
+      "cs": "https://github.com/JlwxdQueen/Sort.PL/blob/main/C#/optimizedBubbleSort.cs",
+      "Go": "https://github.com/JlwxdQueen/Sort.PL/blob/main/Go/optimizedBubbleSort.go",
+      "Java": "https://github.com/JlwxdQueen/Sort.PL/blob/main/Java/optimizedBubbleSort.java",
+      "JavaScript": "https://github.com/JlwxdQueen/Sort.PL/blob/main/JavaScript/optimizedBubbleSort.js",
+      "TypeScript": "https://github.com/JlwxdQueen/Sort.PL/blob/main/TypeScript/optimizedBubbleSort.ts"
+    }
+  },
+  "quick": {
+    "title": "Quick Sort",
+    "description": "Функция quickSort сортирует массив с помощью алгоритма быстрой сортировки.",
+    "complexity": {
+      "worst": "O(n²)",
+      "best": "O(n log n)",
+      "average": "O(n log n)"
+    },
+    "language": {
+      "cpp": "https://github.com/JlwxdQueen/Sort.PL/blob/main/C++/quickSort.cpp",
+      "cs": "https://github.com/JlwxdQueen/Sort.PL/blob/main/C#/quickSort.cs",
+      "Go": "https://github.com/JlwxdQueen/Sort.PL/blob/main/Go/quickSort.go",
+      "Java": "https://github.com/JlwxdQueen/Sort.PL/blob/main/Java/quickSort.java",
+      "JavaScript": "https://github.com/JlwxdQueen/Sort.PL/blob/main/JavaScript/quickSort.js",
+      "TypeScript": "https://github.com/JlwxdQueen/Sort.PL/blob/main/TypeScript/quickSort.ts"
+    }
+  },
+  "selection": {
+    "title": "Selection Sort",
+    "description": "Функция selectionSort сортирует массив с помощью алгоритма сортировки выбором.",
+    "complexity": {
+      "worst": "O(n²)",
+      "best": "O(n²)",
+      "average": "O(n²)"
+    },
+    "language": {
+      "cpp": "https://github.com/JlwxdQueen/Sort.PL/blob/main/C++/selectionSort.cpp",
+      "cs": "https://github.com/JlwxdQueen/Sort.PL/blob/main/C#/selectionSort.cs",
+      "Go": "https://github.com/JlwxdQueen/Sort.PL/blob/main/Go/selectionSort.go",
+      "Java": "https://github.com/JlwxdQueen/Sort.PL/blob/main/Java/selectionSort.java",
+      "JavaScript": "https://github.com/JlwxdQueen/Sort.PL/blob/main/JavaScript/selectionSort.js",
+      "TypeScript": "https://github.com/JlwxdQueen/Sort.PL/blob/main/TypeScript/selectionSort.ts"
+    }
+  },
+  "shaker": {
+    "title": "Shaker Sort",
+    "description": "Функция shakerSort сортирует массив с помощью алгоритма шейкерной сортировки.",
+    "complexity": {
+      "worst": "O(n²)",
+      "best": "O(n)",
+      "average": "O(n²)"
+    },
+    "language": {
+      "cpp": "https://github.com/JlwxdQueen/Sort.PL/blob/main/C++/shakerSort.cpp",
+      "cs": "https://github.com/JlwxdQueen/Sort.PL/blob/main/C#/shakerSort.cs",
+      "Go": "https://github.com/JlwxdQueen/Sort.PL/blob/main/Go/shakerSort.go",
+      "Java": "https://github.com/JlwxdQueen/Sort.PL/blob/main/Java/shakerSort.java",
+      "JavaScript": "https://github.com/JlwxdQueen/Sort.PL/blob/main/JavaScript/shakerSort.js",
+      "TypeScript": "https://github.com/JlwxdQueen/Sort.PL/blob/main/TypeScript/shakerSort.ts"
+    }
+  },
+  "shell": {
+    "title": "Shell Sort",
+    "description": "Функция shellSort сортирует массив с помощью алгоритма Shell Sort, который является улучшенной версией сортировки вставками, используя уменьшение шага (gap).",
+    "complexity": {
+      "worst": "O(n²)",
+      "best": "O(n log n)",
+      "average": "O(n log n)"
+    },
+    "language": {
+      "cpp": "https://github.com/JlwxdQueen/Sort.PL/blob/main/C++/shellSort.cpp",
+      "cs": "https://github.com/JlwxdQueen/Sort.PL/blob/main/C#/shellSort.cs",
+      "Go": "https://github.com/JlwxdQueen/Sort.PL/blob/main/Go/shellSort.go",
+      "Java": "https://github.com/JlwxdQueen/Sort.PL/blob/main/Java/shellSort.java",
+      "JavaScript": "https://github.com/JlwxdQueen/Sort.PL/blob/main/JavaScript/shellSort.js",
+      "TypeScript": "https://github.com/JlwxdQueen/Sort.PL/blob/main/TypeScript/shellSort.ts"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.header {
+  height: 100px;
+  display: grid;
+  grid-template-columns: 1fr min-content;
+  align-items: center;
+  gap: 45px;
+  margin-bottom: 50px;
+}
+
+.header__title {
+  padding: 0 20px;
+  height: inherit;
+  width: 100%;
+  font-size: 48px;
+  color: black;
+  background: #8df5fb;
+  align-content: center;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.header__icon {
+  height: 100%;
+  width: 100px;
+  background: #8df5fb;
+  border-radius: 10px;
+}

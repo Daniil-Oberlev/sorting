@@ -1,0 +1,11 @@
+.DS_Store/
+.vscode/
+.github/
+
+docs/
+Dockerfile
+.dockerignore
+LICENSE
+README.md
+
+.log

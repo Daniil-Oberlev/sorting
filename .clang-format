@@ -1,0 +1,22 @@
+BasedOnStyle: LLVM
+IndentWidth: 2
+TabWidth: 2
+UseTab: Never
+SpaceBeforeParens: ControlStatements
+SpaceAfterCStyleCast: false
+SpaceBeforeCaseColon: false
+BreakBeforeBraces: Attach
+AllowShortBlocksOnASingleLine: true
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: true
+AlignAfterOpenBracket: Align
+AlignConsecutiveDeclarations: true
+AlignOperands: Align
+ColumnLimit: 80
+MaxEmptyLinesToKeep: 1
+SortIncludes: CaseSensitive
+IncludeBlocks: Preserve
+CommentPragmas: "^ IWYU pragma:"
+ReflowComments: true
+DerivePointerAlignment: false
+PointerAlignment: Right

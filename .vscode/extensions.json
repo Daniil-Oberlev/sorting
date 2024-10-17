@@ -1,0 +1,10 @@
+{
+	"recommendations": [
+		"ms-vscode.cpptools",
+		"twxs.cmake",
+		"ms-vscode.cmake-tools",
+		"formulahendry.code-runner",
+		"lone17.lone-vscode-pets",
+		"ms-vscode.makefile-tools"
+	]
+}

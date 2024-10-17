@@ -1,0 +1,15 @@
+@import "@/styles/mixins.scss";
+
+.footer {
+  @include text-variant-style;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: 30px;
+}
+
+.footer__copyright {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}

@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update && sudo apt-get install -y clang g++ make libbenchmark-dev
+
+      - name: Set execute permissions
+        run: |
+          chmod +x ./tools/check_comments.pl ./tools/test.sh ./tools/format.sh
+
+      - name: Run tests
+        run: make test
+
+      - name: Run check_comments script
+        run: perl tools/check_comments.pl
+
+      - name: Execute test.sh script
+        run: ./tools/test.sh
+
+      - name: Format code
+        run: ./tools/format.sh

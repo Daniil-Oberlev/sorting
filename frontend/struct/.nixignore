@@ -1,0 +1,8 @@
+.husky/
+docs/
+.eslintrc.json
+.gitignore
+.prettierignore
+.prettierrc
+package-lock.json
+roadmap.md
